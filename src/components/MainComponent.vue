@@ -3,7 +3,8 @@
 <section class="chef container">
         <!--img roll destra-->
     <div >
-<img src="../assets/image/california.jpg" alt="californiaroll" class="california">
+<img src="../assets/image/california.jpg" alt="californiaroll" class="california rightBox"><p class="roll">california roll - $22</p>
+
     </div>
 
     <!--box sinistra-->
@@ -39,6 +40,7 @@
             <button type="button" class="btn btn-outline-light buy">BUY AVADA TODAY</button>
             </div>
         </div>
+        
     </section>
 
     <!--4°MAIN: CriticsComponenet-->
@@ -69,6 +71,18 @@ import CardCritic from './main/CardCritic.vue';
     height: 40%;
     float: right;
 }
+.roll{
+    position: absolute;
+    padding-left: 60%;
+    padding-top:42%;
+    color: white;
+    font-size: 2rem;
+}
+
+.rightBox:hover {
+      transition: transform 0.5s;
+      transform: scale(1.04);
+  }
 
 h1{
     font-size: 3.2rem;

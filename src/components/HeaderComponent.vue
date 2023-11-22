@@ -10,10 +10,11 @@
         <div class="leftSection " >
             <div class="fusion">
             <span class="text-uppercase">the best table in town </span>
+            <hr>
             <h1 class="text-uppercase">fine dining experience</h1>
             <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.</p>
             
-            <button type="button" class="btn btn-outline-light buy">BUY AVADA TODAY</button>
+            <button class="btn btn-outline-light buy">BUY AVADA TODAY</button>
             </div>
         </div>
     </header>
@@ -32,6 +33,11 @@ import NavBar from './nav/NavBar.vue'
 <style lang="scss" scoped>
 .intro {
     background-color: black;
+}
+hr{
+    margin-right: 40px;
+    width: 60px;
+    color: white;
 }
 .restaurant{
     width: 50%;
