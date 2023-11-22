@@ -26,13 +26,33 @@
         </div>
       
         <!--box guardian -->
+      <div class="space-between">
+        <div class="boxLeft justify-center">
+          <div >
+            <h3>MARY MAXEY</h3>
+            <h2>THE GUARDIAN</h2>
+            <hr>
+            <p>Non arcu mauris tortor ultrices mollis tellus euismod fermentum. Habitant amet tincidunt id sapien accumsan sed.</p>
+            <button class="btn btn-outline-light buy">READ FULL ARTICLE</button>
+          </div>
+        </div>
+      
+        <!-- box globe -->
+      <div class="boxRight justify-center">
+            <h3>PATRICK MONROE</h3>
+            <h2>GLOBE AND MAIL</h2>
+            <hr>
+            <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt.</p>
+            <button class="btn btn-outline-light buy">READ FULL ARTICLE</button>
       </div>
     </div>
+    </div>
+  </div>
   </template>
 
 <script>
   export default {
-    name: 'CardComponenet',
+    name: 'CardCritic',
   }
 </script>
 
@@ -50,8 +70,6 @@ hr{
 }
 .meggy {
   display: flex;
-  height: 800px;
-  
 }
 .textBox{
  padding-left: 100px;
@@ -73,6 +91,26 @@ hr{
       transform: scale(1.04);
     }
   }
+
+  .boxLeft {
+  background-image: url('/img/girl2.jpg');
+  background-size: cover;
+  width: 45%;
+  height: 90vh;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.boxRight {
+  background-image: url('/img/boys.jpg');
+  background-size: cover;
+  width: 45%;
+  height: 90vh;
+  padding: 40px;
+  margin-top: 30px;
+  float: right;
+  
+}
 
 
 </style>
