@@ -1,6 +1,7 @@
 <template>
     <!--sezione destra-->
     <header class="intro">
+        <NavBar />
         <div >
             <img src="../assets/image/restaurant.jpg" class="restaurant">
         </div>
@@ -19,9 +20,12 @@
 </template>
 
 <script>
+import NavBar from './nav/NavBar.vue'
     export default {
-        name: 'HeaderComponent'
-        
+        name: 'HeaderComponent',
+        components: {
+            NavBar,
+        }
     }
 </script>
 
@@ -52,7 +56,7 @@ width: 100%;
 height: 100vh;
 }
 .fusion{
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 10%;
     
 }

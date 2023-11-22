@@ -76,4 +76,5 @@ Affrontate il progetto a mente serena allontanando ogni ansia, divertitevi mentr
 ## INIZIO LAVORO.
 pulizia scaffolding.
 
-- creazione HeaderComponent 
+- creazione HeaderComponent: CSS-HTML
+-creazione NavBar component da importare nell'HeaderComponent.
