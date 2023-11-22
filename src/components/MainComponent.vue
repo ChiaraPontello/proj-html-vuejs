@@ -1,10 +1,12 @@
 <template>
-    <main class="chef container">
+<!--1°MAIN-->
+<section class="chef container">
+        <!--img roll destra-->
     <div >
 <img src="../assets/image/california.jpg" alt="californiaroll" class="california">
     </div>
 
-    <!--sezione sinistra-->
+    <!--box sinistra-->
     <div class=" box" >
             <div>
             <p><strong>HAC TELLUS, FELIS RISUS AT mattis mattis.</strong> Eget euismod semper eget tortor, donec amet, blandit. Tristique facilisi faucibus elementum feugiat in nam in feugiat. Ipsum odio etiam duis facilisis amet vulputate. </p>
@@ -14,10 +16,31 @@
             </div>
     </div>
 
+<!--2°MAIN: SUSHICOMPONENT in cui troviamo le card-->
     <div>
         <SushiComponent />
     </div>
-    </main>
+</section>
+
+<!--3°MAIN-->
+<section class="experience">
+        <!--sezione sinitra-->
+        <div >
+            <img src="../assets/image/sushiplate.jpg" class="sushiplate">
+        </div>
+        
+        <!--sezione destra-->
+        <div class="rightSection " >
+            <div class="fineDinning">
+            <span class="text-uppercase">the best table in town </span>
+            <h1 class="text-uppercase">fine dining experience</h1>
+            <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.</p>
+            
+            <button type="button" class="btn btn-outline-light buy">BUY AVADA TODAY</button>
+            </div>
+        </div>
+    </section>
+    
 </template>
 
 <script>
@@ -59,4 +82,23 @@ p {
 .signature{
     width: 50%;
 }
+
+.experience{
+    background-color: black;
+}
+.sushiplate{
+    width: 60%;
+    height: 80vh;
+    float: left;
+}
+.rightSection{
+    width: 80%;
+    height: 80vh;
+}
+.fineDinning{
+    padding-top: 10%;
+    color: white;
+    
+}
+
 </style>
