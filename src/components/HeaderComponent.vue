@@ -37,6 +37,7 @@ import NavBar from './nav/NavBar.vue'
     width: 50%;
     height: 100vh;
     float: right;
+   
 }
 p{
     color: white;

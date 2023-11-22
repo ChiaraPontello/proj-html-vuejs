@@ -7,11 +7,12 @@
                     <div class="d-flex align-items-center">
                         
                         <a class="nav-link" :href="link.url">{{ link.text }}</a>
-
+                        
                     </div>
 
                 </li>
             </ul>
+            
         </div>
 
     </div>
@@ -51,6 +52,7 @@ export default {
                     text: 'Reservation',
                     url: '#',
                 },
+               
             ]
         }
     }
@@ -61,7 +63,7 @@ export default {
 .navMenu {
     padding: 20px;
     margin: 0 auto;
-
+    z-index: 1000;
 }
 
 a {
@@ -72,9 +74,7 @@ a {
 a:hover{
     color: orange;
 }
-.logoAvada{
-    display: block;
-}
+
 
 
 </style>
