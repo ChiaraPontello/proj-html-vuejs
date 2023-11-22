@@ -40,15 +40,20 @@
             </div>
         </div>
     </section>
+
+    <!--4°MAIN: CriticsComponenet-->
+    <CardCritic />
     
 </template>
 
 <script>
-import SushiComponent from './sushi/SushiComponent.vue';
+import SushiComponent from './main/SushiComponent.vue';
+import CardCritic from './main/CardCritic.vue';
     export default {
         name: 'MainComponent',
         components: {
             SushiComponent,
+            CardCritic,
         }
     }
 </script>
@@ -85,6 +90,7 @@ p {
 
 .experience{
     background-color: black;
+    margin-bottom: 100px;
 }
 .sushiplate{
     width: 60%;
