@@ -43,19 +43,23 @@
         
     </section>
 
-    <!--4°MAIN: CriticsComponenet-->
+    <!--4°MAIN: CARDCRITIC-->
     <CardCritic />
-    
+
+    <!--5°MAIN: PROMOTIONSCOMPONENT-->
+    <PromotionComponent />
 </template>
 
 <script>
 import SushiComponent from './main/SushiComponent.vue';
 import CardCritic from './main/CardCritic.vue';
+import PromotionComponent from './main/PromotionComponent.vue';
     export default {
         name: 'MainComponent',
         components: {
             SushiComponent,
             CardCritic,
+            PromotionComponent,
         }
     }
 </script>
