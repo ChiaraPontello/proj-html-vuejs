@@ -27,7 +27,7 @@
       
         <!--box guardian -->
       <div class="d-flex justify-content-between ">
-        <div class="boxLeft linearGradient">
+        <div class="boxLeft ">
           <div class="textBox text-light ">
             <h4>MARY MAXEY</h4>
             <h1>THE GUARDIAN</h1>
@@ -38,7 +38,7 @@
         </div>
       
         <!-- box globe -->
-      <div class="boxRight linearGradient">
+      <div class="boxRight ">
         <div class="textBox text-light">
             <h4>PATRICK MONROE</h4>
             <h1>GLOBE AND MAIL</h1>
@@ -115,10 +115,12 @@ hr{
   padding: 40px;
   margin-top: 30px;
   float: right;
+  
 }
 
 .imgkung {
   position: relative;
+  
   .kung{
     width: 100%;
     padding-top: 50px;
