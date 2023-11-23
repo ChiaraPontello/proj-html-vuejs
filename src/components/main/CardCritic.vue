@@ -46,8 +46,14 @@
             <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt.</p>
             <button class="btn btn-outline-light buy">READ FULL ARTICLE</button>
         </div>
-          </div>
+      </div>
     </div>
+    </div>
+
+  <!--img kungpao-->
+    <div class="imgkung">
+      <img src="/img/kungpao.jpg" alt="" class="kung">
+      <h3 class="textKung">KUNG PAO CHICKEN - $32</h3> 
     </div>
   </div>
   </template>
@@ -93,10 +99,6 @@ hr{
       transform: scale(1.04);
     }
   }
-
-  
- 
-    
   .boxLeft {
   background-image: url('/img/girl2.jpg');
   background-size: cover;
@@ -105,9 +107,6 @@ hr{
   padding: 40px;
   margin-top: 30px;
 }
-  
-
-
 .boxRight {
   background-image: url('/img/boys.jpg');
   background-size: cover;
@@ -116,6 +115,21 @@ hr{
   padding: 40px;
   margin-top: 30px;
   float: right;
+}
+
+.imgkung {
+  position: relative;
+  .kung{
+    width: 100%;
+    padding-top: 50px;
+   
+  }
+  .textKung{
+    position: absolute;
+    bottom: 2px;
+    left: 40%;
+    color: white;
+}
 }
 
 
