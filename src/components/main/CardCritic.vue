@@ -26,11 +26,11 @@
         </div>
       
         <!--box guardian -->
-      <div class="space-between">
-        <div class="boxLeft justify-center">
-          <div >
-            <h3>MARY MAXEY</h3>
-            <h2>THE GUARDIAN</h2>
+      <div class="d-flex justify-content-between ">
+        <div class="boxLeft linearGradient">
+          <div class="textBox text-light ">
+            <h4>MARY MAXEY</h4>
+            <h1>THE GUARDIAN</h1>
             <hr>
             <p>Non arcu mauris tortor ultrices mollis tellus euismod fermentum. Habitant amet tincidunt id sapien accumsan sed.</p>
             <button class="btn btn-outline-light buy">READ FULL ARTICLE</button>
@@ -38,13 +38,15 @@
         </div>
       
         <!-- box globe -->
-      <div class="boxRight justify-center">
-            <h3>PATRICK MONROE</h3>
-            <h2>GLOBE AND MAIL</h2>
+      <div class="boxRight linearGradient">
+        <div class="textBox text-light">
+            <h4>PATRICK MONROE</h4>
+            <h1>GLOBE AND MAIL</h1>
             <hr>
             <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt.</p>
             <button class="btn btn-outline-light buy">READ FULL ARTICLE</button>
-      </div>
+        </div>
+          </div>
     </div>
     </div>
   </div>
@@ -92,6 +94,9 @@ hr{
     }
   }
 
+  
+ 
+    
   .boxLeft {
   background-image: url('/img/girl2.jpg');
   background-size: cover;
@@ -100,6 +105,8 @@ hr{
   padding: 40px;
   margin-top: 30px;
 }
+  
+
 
 .boxRight {
   background-image: url('/img/boys.jpg');
@@ -109,7 +116,6 @@ hr{
   padding: 40px;
   margin-top: 30px;
   float: right;
-  
 }
 
 
