@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="container ">
       <!-- title-->
     <div class="title">
       <p><i> Latest News & Promotions </i></p>
@@ -98,6 +98,8 @@ hr{
     position: relative;
     width: 30%;
     height: 90vh;
+    margin-bottom: 10%;
+    border: 1px solid black;
     
     img {
       position: absolute;
@@ -143,3 +145,5 @@ hr{
   
 
 </style>
+
+<!--TRASFORMARLO IN CARD CON VUE-->

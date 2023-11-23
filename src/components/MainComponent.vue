@@ -48,18 +48,43 @@
 
     <!--5°MAIN: PROMOTIONSCOMPONENT-->
     <PromotionComponent />
+
+    <!--6°MAIN-->
+    <section class="experience">
+        <!--sezione sinitra-->
+        <div >
+            <img src="/img/couple.jpg" class="couple">
+        </div>
+        
+        <!--sezione destra-->
+        <div class="rightSection " >
+            <div class="fineDinning">
+            <span class="text-uppercase">enjoy your meal at home </span>
+            <h1 class="text-uppercase">takeout now available</h1>
+            <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.</p>
+            
+            <button type="button" class="btn btn-outline-light buy">viev takeout menu</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--7°MAIN: MENUCOMPONENT-->
+    <MenuCard />
 </template>
 
 <script>
 import SushiComponent from './main/SushiComponent.vue';
 import CardCritic from './main/CardCritic.vue';
 import PromotionComponent from './main/PromotionComponent.vue';
+import MenuCard from './main/MenuCard.vue';
     export default {
         name: 'MainComponent',
         components: {
             SushiComponent,
             CardCritic,
             PromotionComponent,
+            MenuCard,
         }
     }
 </script>
@@ -123,6 +148,12 @@ p {
     padding-top: 10%;
     color: white;
     
+}
+.couple{
+    width: 60%;
+    height: 80vh;
+    float: left;
+    object-fit: cover;
 }
 
 </style>
