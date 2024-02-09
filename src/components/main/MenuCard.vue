@@ -133,14 +133,15 @@
   .boxSide {
   background-color: rgb(232, 232, 232);
   width: 45%;
-  height: 105vh;
+  height: 90vh;
   padding: 40px;
   margin-top: 30px;
+  margin-bottom: 70px;
 }
 .boxCenter {
   background-color: black;
   width: 45%;
-  height: 105vh;
+  height: 85vh;
   padding: 40px;
 }
 span{

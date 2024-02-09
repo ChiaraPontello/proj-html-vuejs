@@ -14,8 +14,8 @@
         <img src="/img/drink.jpg" alt="drink">
         <div class="shadowBox">
         <!--scompare all'hover-->
-         <div class="hiddenBox">
-          <h2 class="text-uppercase py-4">The best coffe in town</h2>
+         <div class="hiddenBox coffe_box">
+          <h2 class="text-uppercase py-4">The best coffe <br> in town</h2>
           <p>By admin | January 7th, 2020 | Categories: News</p>
         </div>
         <!--compare hover-->
@@ -84,13 +84,10 @@
   padding-top: 5%;
   font-size: 3rem;
 }
-hr{
-    margin-right: 40px;
-    width: 20%;
-    color: black;
-    margin-left: 40%;
+.coffe_box{
+  
+  width: 100%;
 }
-
 
 //blocco card 
   .card {
@@ -104,7 +101,6 @@ hr{
       position: absolute;
       width: 100%;
       height: 90vh;
-      right: 1px;
       object-fit: cover;
     }
     
@@ -123,7 +119,7 @@ hr{
     .hiddenBox {
       color: black;
       position: absolute;
-      bottom: 0;
+      bottom: 1px;
       background-color: white;
     }&:hover .hiddenBox {
         height: 0px;
@@ -145,4 +141,3 @@ hr{
 
 </style>
 
-<!--TRASFORMARLO IN CARD CON VUE-->
