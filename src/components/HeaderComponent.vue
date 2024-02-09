@@ -11,7 +11,7 @@
             <div class="fusion">
             <span class="text-uppercase">the best table in town </span>
             <h1 class="text-uppercase">fine dining experience</h1>
-            <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque.</p>
+            <p>Pellentesque vitae viverra risus, sagittis.  Venenatis ridiculus scelerisque.</p>
             
             <button class="btn btn-outline-light buy">BUY AVADA TODAY</button>
             </div>
@@ -46,7 +46,7 @@ hr{
 }
 p{
     color: white;
-    padding: 10px;
+    padding: 9px;
     font-size: 1.3rem;
 }
 h1{

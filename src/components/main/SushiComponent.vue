@@ -31,12 +31,12 @@ export default {
                     title: 'Perfect For Groups',
                     text: 'Quam eu proin sit massa condimentum. Volutpat non pulvinar aliquet nunc. Orci elementum in aliquet a gravida vivamus aliquam turpis vitae.',
                     url: '#',
-                    urlText: 'buy avada today'
+                    urlText: 'Buy avada today'
                 },
                 {   
                     imageSushi: '/img/sushi-3.png',
                     title: 'Fresh produce everyday',
-                    text: 'Hendrerit amet, volutpat leo non, commodo maecenas scelerisque tincidunt. Morbi vulputate morbi purus quisque sit sagittis orci elementum gravida.',
+                    text: 'Hendrerit amet, volutpat leo non, commodo maecenas scelerisque tincidunt. Morbi vulputate morbi purus quisque sit sagittis orci elementum.',
                     url: '#',
                     urlText: 'Learn more about us'
                 },

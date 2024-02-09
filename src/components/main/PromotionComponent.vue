@@ -95,7 +95,7 @@
     width: 30%;
     height: 90vh;
     margin-bottom: 10%;
-    border: 1px solid black;
+    
     
     img {
       position: absolute;
@@ -119,7 +119,7 @@
     .hiddenBox {
       color: black;
       position: absolute;
-      bottom: 1px;
+      bottom:0;
       background-color: white;
     }&:hover .hiddenBox {
         height: 0px;
