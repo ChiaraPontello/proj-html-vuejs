@@ -35,7 +35,7 @@
 <style lang="scss" scoped>
 .footerUp {
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 1) 10%,
