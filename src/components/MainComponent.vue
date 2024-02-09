@@ -32,12 +32,12 @@
         
         <!--sezione destra-->
         <div class="rightSection " >
-            <div class="fineDinning">
-            <span class="text-uppercase">the best table in town </span>
-            <h1 class="text-uppercase">fine dining experience</h1>
-            <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.</p>
+            <div class="fineDinning ">
+            <span class="text-uppercase px-4">the best table in town </span><br>
+            <span class="text-uppercase px-4 title_box"> fine dining experience </span><br>
+            <span class="px-4"> Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. </span><br>
             
-            <button type="button" class="btn btn-outline-light buy">BUY AVADA TODAY</button>
+            <button type="button" class="btn btn-outline-light buy button_box">BUY AVADA TODAY</button>
             </div>
         </div>
         
@@ -59,11 +59,11 @@
         <!--sezione destra-->
         <div class="rightSection " >
             <div class="fineDinning">
-            <span class="text-uppercase">enjoy your meal at home </span>
-            <h1 class="text-uppercase">takeout now available</h1>
-            <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.</p>
+            <span class="text-uppercase px-4">enjoy your meal at home </span><br>
+            <span class="text-uppercase title_box px-4">takeout now available</span><br>
+            <span class="px-4">Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor.</span><br>
             
-            <button type="button" class="btn btn-outline-light buy">viev takeout menu</button>
+            <button type="button" class="btn btn-outline-light buy button_box">viev takeout menu</button>
             </div>
         </div>
         
@@ -90,6 +90,16 @@ import MenuCard from './main/MenuCard.vue';
 </script>
 
 <style lang="scss" scoped>
+.button_box{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.title_box{
+    font-size: 3.2rem;
+    padding-bottom: 20px;
+}
+
 .chef {
     padding-top:50px;
     padding-bottom: 20px;
@@ -141,11 +151,11 @@ p {
     float: left;
 }
 .rightSection{
-    width: 80%;
+    width: 100%;
     height: 80vh;
 }
 .fineDinning{
-    padding-top: 10%;
+    padding-top: 14%;
     color: white;
     
 }

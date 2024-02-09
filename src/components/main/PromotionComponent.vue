@@ -27,6 +27,7 @@
         </div>
       </div>
 
+
       <!--2°box-->
       <div class="card">
         <img src="/img/girl.jpg" alt="girl">
@@ -50,18 +51,16 @@
         <img src="/img/pos.jpg" alt="pos">
         <div class="shadowBox">
         <!--scompare all'hover-->
-        <div class="hiddenBox">
+            <div class="hiddenBox">
                 <h2 class="text-uppercase py-3">We now accept square!</h2>
                 <p>By admin | January 7th, 2020 | Categories: News</p>
             </div>
         <!--compare all'hover-->
-        <div class="textCard">
-          <i class="fas fa-link"></i>
-          <h4 class="text-uppercase">We now accept square!</h4>
-          <p>News</p>
-        </div>
-        
-            
+            <div class="textCard">
+                <i class="fas fa-link"></i>
+                <h4 class="text-uppercase">We now accept square!</h4>
+                <p>News</p>
+            </div>
         </div>
       </div>
 

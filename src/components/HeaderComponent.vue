@@ -10,9 +10,8 @@
         <div class="leftSection " >
             <div class="fusion">
             <span class="text-uppercase">the best table in town </span>
-            <hr>
             <h1 class="text-uppercase">fine dining experience</h1>
-            <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.</p>
+            <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque.</p>
             
             <button class="btn btn-outline-light buy">BUY AVADA TODAY</button>
             </div>
